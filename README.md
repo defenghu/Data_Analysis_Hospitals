@@ -4,11 +4,7 @@ This is the Data Analysis for Hospitals project I made myself.
 You know the story. Data is everywhere: texts, images, news, and spreadsheets. It affects our habits and defines our future. The amount of data is growing by the second. How can one stay afloat in this great sea of data? Data analysis is required in any line of business. In this project, you will conduct a comprehensive study with pandas. You will upload datasets, deal with data omissions and incorrect data filling, find the main statistical characteristics, and visualize your data. Let's do it!
 
 This project involves the analysis of data from three different hospitals: General, Prenatal, and Sports. The data includes information about patients' age, gender, diagnosis, and various medical tests. The goal of this project is to extract meaningful insights from the data and answer specific questions related to patient demographics, diagnoses, and medical tests.
-# Getting Started
-To get a local copy up and running, follow these steps:
-1. Clone the repo.
-2. Install necessary libraries: pandas, numpy, matplotlib, and seaborn.
-3. Run the script.
+
 # Data Preparation
 The data is read from three separate CSV files, one for each hospital. The column names are standardized across all dataframes for consistency. The dataframes are then concatenated into one for ease of analysis.
 Unnecessary columns are dropped, and rows with too many missing values are removed. The gender values are standardized to 'm' for male and 'f' for female. Missing values in certain columns are filled with 0, and missing gender values are filled with 'f'.
